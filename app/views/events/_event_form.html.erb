@@ -1,0 +1,25 @@
+
+<%= form_for event do |helper| %>
+
+<p>
+  <%= helper.label :name %>
+  <%= helper.text_field :name %>
+</p>
+
+<p>
+  <%= helper.label :city %>
+  <%= helper.text_field :city %>
+</p>
+
+
+<p>
+  <%= helper.label :date %>
+  <%= helper.date_field :date %>
+</p>
+
+
+<p>
+<%= helper.submit %>
+</p>
+
+<% end %>
