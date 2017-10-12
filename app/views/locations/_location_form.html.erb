@@ -1,0 +1,28 @@
+
+<%= form_for location do |helper| %>
+
+<p>
+<%= helper.label :name  %>
+<%= helper.text_field :name %>
+</p>
+
+<p>
+<%= helper.label :city %>
+<%= helper.text_field :city %>
+</p>
+
+<p>
+<%= helper.label :description %>
+<%= helper.text_field :description %>
+</p>
+
+<p>
+<%= helper.label :image %>
+<%= helper.text_field :image %>
+</p>
+
+<p>
+<%= helper.submit %>
+</p>
+
+<% end %>

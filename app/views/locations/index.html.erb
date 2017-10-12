@@ -2,6 +2,11 @@ locations#index page
 
 <h1>Locations</h1>
 
+<p>
+  
+<%= link_to 'New Location', new_location_path %>
+
+</p>
 <% @locations.each do |location| %>
-  <%= render 'single_location', location: location %> 
+  <%= render 'single_location', location: location %>
   <% end %>
