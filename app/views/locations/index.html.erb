@@ -1,1 +1,7 @@
 locations#index page
+
+<h1>Locations</h1>
+
+<% @locations.each do |location| %>
+  <%= render 'single_location', location: location %> 
+  <% end %>
